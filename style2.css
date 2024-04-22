@@ -1,0 +1,75 @@
+/*project on tic tac toe*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: deeppink;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box{
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+    font-size: 8vmin;
+    background-color: plum;
+}
+
+#reset-btn
+{
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: blue;
+    border-radius:1rem;
+    border: none;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: blue;
+    border-radius:1rem;
+    border: none;
+}
+
+#msg{
+    color: plum;
+    font-size: 8vmin;
+}
+
+.msg-Container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hide{
+    display: none;
+}
